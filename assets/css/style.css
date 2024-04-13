@@ -985,7 +985,6 @@ img {
 }
 
 /* Services block image */
-
 .services__block-image {
     grid-column: 2/3;
     grid-row: 1/4;
