@@ -1789,7 +1789,9 @@ main .staff {
 }
 
 .blogs__item-content {
-    padding: 28px 0;
+    max-width: 358px;
+    padding-top: 28px;
+    padding-left: 20px;
 }
 
 .blogs__item-title {
@@ -1799,8 +1801,8 @@ main .staff {
 }
 
 .blogs__item-desc {
-    padding-top: 16px;
-    width: 351px;
+    padding: 16px 0;
+    max-width: 90%;
     font-size: 1.4rem;
     line-height: 1.71;
 }
@@ -1837,14 +1839,15 @@ main .staff {
 .footer__contact-email {
     width: 268px;
     height: 46px;
+    padding-left: 22px;
     border: 1px solid rgba(255, 91, 46, 0.25);
     border-radius: 999px;
     background-color: var(--white-color);
     opacity: 0.6;
+    font-size: 1.4rem;
 }
 
 .footer__contact-email::placeholder {
-    padding-left: 22px;
     font-size: 1.2rem;
     font-weight: 300;
     color: var(--secondary-text-color);
@@ -1933,6 +1936,10 @@ main .staff {
     font-weight: 600;
     line-height: 1.1;
     color: var(--primary-text-color);
+}
+
+.footer__info-desc a {
+    color: inherit;
 }
 
 .footer__info-title:hover,
